@@ -10,3 +10,11 @@ $(document).on("click", 'a[href^="#"]', function (event) {
     800
   );
 });
+
+// Code to check divs which cause horizontal scrolling
+// var docWidth = document.documentElement.offsetWidth;
+// [].forEach.call(document.querySelectorAll("*"), function (el) {
+//   if (el.offsetWidth > docWidth) {
+//     console.log(el);
+//   }
+// });
